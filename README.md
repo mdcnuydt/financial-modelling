@@ -1,1 +1,1 @@
-This is a repository of my financial models used for the analysis of real estate investment deals. This is mainly Excel and PDF based.
+This is a repository of my financial models used for the analysis of real estate investment deals. This is mainly Excel and PDF based. Obviously neither of these are particularly suited for GitHub but it was an easy way to store and display my financial models next to my data science projects on here. To access the models you will have to first download them.
