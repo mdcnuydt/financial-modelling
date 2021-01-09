@@ -36,15 +36,16 @@ The development was funded by a Construction Loan and Investor/Developer Equity 
 
 We will allow for Exit Dates between May 2021 and April 2022; selling costs will be approximately 1.5% of the property value upon exit. In addition to the Hard Costs, Soft Costs, and Land Acquisition Costs, we will assume initial Replacement Reserves equal to the average years in a new lease times the annual Replacement Reserve amount. When the construction is complete, the Construction Loan will be refinanced with a Senior Loan and Mezzanine with the following terms:
 
-|                           | **Senior Loan** | **Mezzanine** |
-| LTV ratio                 | 60%             | 10%           |
-| Annual cash interest rate | 3.5%            | 4%            |
-| Annual PIK interest rate  | N/A             | 4%            |
-| Amortisation period (yrs) | 30              | N/A           |
-| Tenor (yrs)               | 10              | 5             |
-| Equity pct upong exit     | N/A             | 1%            |
-| Loan issuance fees        | 1%              | 1%            |
-| Prepayment penalty        | 1%              | 1%            |
+ **Term**                     **Senior Loan**     **Mezzanine** 
+ ----------                 ------------     ----------
+ LTV ratio                  60%              10%           
+ Annual cash interest rate  3.5%             4%            
+ Annual PIK interest rate   N/A              4%            
+ Amortisation period (yrs)  30               N/A           
+ Tenor (yrs)                10               5             
+ Equity pct upong exit      N/A              1%            
+ Loan issuance fees         1%               1%            
+ Prepayment penalty         1%               1%            
 
 The property will not be stabilised upon construction completion, we will use the property’s value two years after construction completion and apply a 20% discount rate to determine the proper loan amounts.
 
@@ -70,19 +71,28 @@ The maximum Debt and Equity amounts should reflect the total capitalised loan fe
 
 There are three operational scenarios in this model: Downside (“Hard Brexit”), Base, and Upside (“Soft Brexit”). The scenarios differ as follows:
 
-|                                         | **Upside**                        | **Base**                          | **Downside**                              |
-| Primce office yield                     | 3.8% FY19; 3.6% FY20; 4.1% FY23   | 4.4% FY19, up to 4.9% by FY23     | 4.75% FY19, up to 5.8% by FY21; 5.3% FY23 |
-| Change in prime office market rents     | 6% FY19; 3.5% FY22-24             | 3.5% FY19; 3% FY22-24             | (7%) FY19; (1%) FY21; 10% FY22; 2.5% FY24 |
-| Fixed annual rental esc (new & renewal) | 2.5% FY19; 3% FY20-21; than 2.75% | 2.25% FY19; up to 2.5% in FY21-24 | 1% FY19 up to 2.25% by FY24               |
-| Prime office expense growth rate        | 1.5% FY18; 2.5% FY22-23           | 1.5% FY18; 2% FY22-23             | 1% FY18; 1.5% by FY22-23                  |
-| Renewal probability                     | 60%                               | 50%                               | 40%                                       |
-| # downtime months for non-renewal       | 6                                 | 9                                 | 12                                        |
-| New tenants - Months of free rent       | 7                                 | 10                                | 13                                        |
-| Renewal tenants - Monts of free rent    | 6                                 | 8                                 | 11                                        |
-| New tenants - TI per rentable sqm       | £10                               | £15                               | £20                                       |
-| Renewal tenants - TI per rentable sqm   | £5                                | £7                                | £10                                       |
-| New tenants - LC % lease value          | 2%                                | 2.5%                              | 3%                                        |
-| Renewal tenants - LC % lease value      | 1%                                | 1.5%                              | 2%                                        |
+ **Assuption**                              **Upside**                           **Base**                             **Downside**                              
+ -----------                              -----------                        ------------                       ----------------
+ Office yield                             3.8% FY19;                         4.4% FY19,                         4.75% FY19,  
+                                          3.6% FY20;                         up to 4.9% by FY23                 up to 5.8% by FY21;  
+                                          3.1% FY23                                                             5.3% FY23
+ Change in market rents                   6% FY19;                           3.5% FY19;                         (7%) FY19;  
+                                          3.5% FY22-24                       3% FY22-24                         (1%) FY21; 
+                                                                                                                0% FY22; 
+                                                                                                                2.5% FY24
+ Fixed rental esc                         2.5% FY19;                         2.25% FY19;                        1% FY19               
+                                          3% FY20-21;                        up to 2.5% in FY21-24              up to 2.25% by FY24
+                                          than 2.75%
+ Expense growth rate                      1.5% FY18;                         1.5% FY18;                         1% FY18;                   
+                                          2.5% FY22-23                       2% FY22-23                         1.5% by FY22-23
+ Renewal probability                      60%                                50%                                40%                                       
+ Downtime non-renewal                     6                                  9                                  12                                        
+ New - Free rent                          7                                  10                                 13                                        
+ Renewal - Free rent                      6                                  8                                  11                                        
+ New - TI per sqm                         £10                                £15                                £20                                       
+ Renewal - TI per sqm                     £5                                 £7                                 £10                                       
+ New - LC % value                         2%                                 2.5%                               3%                                        
+ Renewal - LC % value                     1%                                 1.5%                               2%                                        
 
 For the other assumptions, all of which stay the same in different scenarios, we will use:
 - Lease Term for New Tenants: 5 years
