@@ -87,24 +87,24 @@ same 82.5% occupancy rate the property currently has.
 
 The scenarios differ as follows:
 
-| Assumption                                            | Upside                        | Base                          | Downside                                       |   |
-| ---                                                   | ---                           | ---                           | ---                                            |   |
-| Class-B Office/Retail Rap Rates                       | 7.25% in FY 19; 6.75% by FY22 | 7.25% in FY 19; 7.00% by FY22 | 7.25% in FY 19; 8.00% by FY 20; 7.25% by FY 22 |   |
-| Change in Market Rents                                | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |   |
-| Fixed Annual Rental                                   | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |   |
-| Escalations                                           | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |   |
-| Expense Growth Rate                                   | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |   |
-| Retail Sales Growth Rate                              | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |   |
-| Renewal Probability                                   | 70%                           | 60%                           | 50%                                            |   |
-| Nr Downtime Months for Non-Renewal                    | 3                             | 6                             | 9                                              |   |
-| New Tenants – Months of Free Rent                     | 2                             | 3                             | 4                                              |   |
-| Renewal Tenants – Months of Free Rent                 | 1                             | 2                             | 3                                              |   |
-| New Tenants – Tenant Improvements per Rentable SF     | $35.00                        | $45.00                        | $55.00                                         |   |
-| Renewal Tenants – Tenant Improvements per Rentable SF | $15.00                        | $20.00                        | $25.00                                         |   |
-| New Tenants – Leasing Commissions % Lease Value       | 5%                            | 6%                            | 7%                                             |   |
-| Renewal Tenants – Leasing Commissions % Lease Value   | 2%                            | 3%                            | 4%                                             |   |
-| Tenant #6 Lease Start Date                            | 2020-01-31                    | 2020-06-30                    | N/A                                            |   |
-| Tenant #7 Lease Start Date                            | 2021-01-31                    | N/A                           | N/A                                            |   |
+| Assumption                                            | Upside                        | Base                          | Downside                                       |
+| ---                                                   | ---                           | ---                           | ---                                            |
+| Class-B Office/Retail Rap Rates                       | 7.25% in FY 19; 6.75% by FY22 | 7.25% in FY 19; 7.00% by FY22 | 7.25% in FY 19; 8.00% by FY 20; 7.25% by FY 22 |
+| Change in Market Rents                                | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |
+| Fixed Annual Rental                                   | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |
+| Escalations                                           | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |
+| Expense Growth Rate                                   | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |
+| Retail Sales Growth Rate                              | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |
+| Renewal Probability                                   | 70%                           | 60%                           | 50%                                            |
+| Nr Downtime Months for Non-Renewal                    | 3                             | 6                             | 9                                              |
+| New Tenants – Months of Free Rent                     | 2                             | 3                             | 4                                              |
+| Renewal Tenants – Months of Free Rent                 | 1                             | 2                             | 3                                              |
+| New Tenants – Tenant Improvements per Rentable SF     | $35.00                        | $45.00                        | $55.00                                         |
+| Renewal Tenants – Tenant Improvements per Rentable SF | $15.00                        | $20.00                        | $25.00                                         |
+| New Tenants – Leasing Commissions % Lease Value       | 5%                            | 6%                            | 7%                                             |
+| Renewal Tenants – Leasing Commissions % Lease Value   | 2%                            | 3%                            | 4%                                             |
+| Tenant #6 Lease Start Date                            | 2020-01-31                    | 2020-06-30                    | N/A                                            |
+| Tenant #7 Lease Start Date                            | 2021-01-31                    | N/A                           | N/A                                            |
 
 The maximum Cap Rate in this market over the past 4-5 years was 8.0%, and it rose to 9.0% in
 the last recession. The other figures above are all in-line with market data.
