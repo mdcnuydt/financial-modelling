@@ -1,9 +1,3 @@
---- 
-header-includes:
- - \usepackage[margin=0.75in]{geometry}
-classoption: "10pt"
----
-
 # Intro
 
 Your firm has been asked to fund the acquisition of The Lyric, a leading multifamily property in
@@ -51,17 +45,17 @@ Use the following figures to set up the key model assumptions:
 
 Use the following numbers for the Senior Loan, Mezzanine, and Preferred Equity:
 
-**Term**                        **Senior Loan**                    **Mezzanine**       **Preferred Equity**
-------                        -------------                    -----------       ------------------
-Loan-to-Value (LTV)           65.0%                            10.0%             10.0%
-Cash Interest Rate            L+2.0%; LIBOR Floor of 2.0%      4.0%              N/A
-PIK Interest Rate             N/A                              4.0%              10.0%
-Issuance Fees                 1.0%                             1.0%              1.0%
-Interest-Only Period          2 yrs                            Entire Period     Entire Period
-Amortization Period           30 yrs                           N/A               N/A
-Maturity                      10 yrs                           5 yrs             5 yrs
-Prepayment Penalty            1.5%                             1.5%              1.5%
-Equity Percentage On Exit     N/A                              N/A               5.0%
+| Term                      | Senior Loan                 | Mezzanine     | Preferred Equity |
+| ---                       | ---                         | ---           | ---              |
+| Loan-to-Value (LTV)       | 65.0%                       | 10.0%         | 10.0%            |
+| Cash Interest Rate        | L+2.0%; LIBOR Floor of 2.0% | 4.0%          | N/A              |
+| PIK Interest Rate         | N/A                         | 4.0%          | 10.0%            |
+| Issuance Fees             | 1.0%                        | 1.0%          | 1.0%             |
+| Interest-Only Period      | 2 yrs                       | Entire Period | Entire Period    |
+| Amortization Period       | 30 yrs                      | N/A           | N/A              |
+| Maturity                  | 10 yrs                      | 5 yrs         | 5 yrs            |
+| Prepayment Penalty        | 1.5%                        | 1.5%          | 1.5%             |
+| Equity Percentage On Exit | N/A                         | N/A           | 5.0%             |
 
 Assume that LIBOR rises from 1.90% in FY 19 to 2.40% in FY 23.
 Your firm is seeking a minimum Debt Yield of 6.0%, Cash Interest Coverage Ratio of 1.50x, and
@@ -69,11 +63,11 @@ Debt Service Coverage Ratio (DSCR) of 1.20x.
 The property may be sold at the end of FY 21, FY 22, or FY 23. Assume Selling Costs of 2.0% and
 the following trends for Cap Rates:
 
-**Scenario**         **FY19**       **FY20**       **FY21**       **FY22**       **FY23**
------------       --------     --------     --------     --------     --------
-Base               4.55%        4.60%        4.65%        4.70%        4.75%
-Downside           4.55%        6.00%        5.50%        5.00%        5.00%
-Extreme Downside   4.55%        6.50%        6.00%        5.50%        5.25%
+| Scenario         | FY19  | FY20  | FY21  | FY22  | FY23  |
+| ---              | ---   | ---   | ---   | ---   | ---   |
+| Base             | 4.55% | 4.60% | 4.65% | 4.70% | 4.75% |
+| Downside         | 4.55% | 6.00% | 5.50% | 5.00% | 5.00% |
+| Extreme Downside | 4.55% | 6.50% | 6.00% | 5.50% | 5.25% |
 
 These Cap Rates represent continued growth but an increasingly older building in the Base
 Case, a moderate recession and recovery in the Downside Case, and a major recession and
@@ -205,21 +199,4 @@ and the Replacement Cost Analysis (“Replacement-Cost”) to get a sense of the
 appropriate value.
 You do not need to make any calculations; instead, use this data to determine whether or not
 the purchase price and operating assumptions are reasonable.
-Part 8 – Case Study Questions
-Once you’ve completed the model, please respond to the following questions:
-1) Which tranche(s) of Debt, if any, would you recommend investing in? Assume that the
-targeted returns are close to the stated interest rates and that the Preferred Investors
-are seeking an IRR slightly above the Preferred interest rate due to the Equity Grant.
-
-2) Does this deal make sense for the sponsor (Amadeus Capital Partners)? Would you
-recommend that they acquire the property at a 4.50% Cap Rate?
-
-3) Are the operating assumptions reasonable across the three cases? Which data supports
-your conclusions?
-
-4) What are the key risk factors for the lenders in this deal, and how might you mitigate
-them? For example, could you renegotiate the terms of the Debt to reduce these risks?
-
-5) What is the significance of the valuation and DCF analysis here? Why might lenders care
-about these even if they do not assume the same risk as the equity investors?
 
