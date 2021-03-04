@@ -1,9 +1,3 @@
---- 
-header-includes:
- - \usepackage[margin=0.75in]{geometry}
-classoption: "10pt"
----
-
 # Intro 
 
 Your firm, HYM Investment, is considering the acquisition and renovation of a 61,000 square-
@@ -93,108 +87,68 @@ same 82.5% occupancy rate the property currently has.
 
 The scenarios differ as follows:
 
-           Assumption:                  Upside:                 Base:               Downside:
-                                                                                 7.25% in FY 19,
-                                     7.25% in FY 19         7.25% in FY 19
-   Class-B Office/Retail Rap                                                    rising to 8.00% in
-                                   falling to 6.75% by    falling to 7.00% by
-            Rates                                                               FY 20, and falling
-                                           FY 22                  FY 22
-                                                                                to 7.25% in FY 22
-   Change in Market Rents
-     Fixed Annual Rental
-         Escalations               Use the figures that have been entered into Excel; FY 19 is the
-                                      same in all scenarios, but the numbers differ after that
-    Expense Growth Rate
-   Retail Sales Growth Rate
-
-      Renewal Probability               70%                   60%                   50%
-    Nr Downtime Months for
-                                         3                      6                     9
-         Non-Renewal
-   New Tenants – Months of
-                                         2                      3                     4
-          Free Rent
-  Renewal Tenants – Months
-                                         1                      2                     3
-         of Free Rent
-     New Tenants – Tenant
- Improvements per Rentable            $35.00                 $45.00                $55.00
-         Square Foot
-  Renewal Tenants – Tenant
- Improvements per Rentable            $15.00                 $20.00                $25.00
-         Square Foot
-    New Tenants – Leasing
-                                        5%                     6%                    7%
- Commissions % Lease Value
-  Renewal Tenants – Leasing
-                                        2%                     3%                    4%
- Commissions % Lease Value
-  Tenant #6 Lease Start Date        2020-01-31            2020-06-30                 N/A
- Tenant #7 Lease Start Date         2021-01-31                N/A                    N/A
-
+| Assumption                                            | Upside                        | Base                          | Downside                                       |   |
+| ---                                                   | ---                           | ---                           | ---                                            |   |
+| Class-B Office/Retail Rap Rates                       | 7.25% in FY 19; 6.75% by FY22 | 7.25% in FY 19; 7.00% by FY22 | 7.25% in FY 19; 8.00% by FY 20; 7.25% by FY 22 |   |
+| Change in Market Rents                                | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |   |
+| Fixed Annual Rental                                   | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |   |
+| Escalations                                           | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |   |
+| Expense Growth Rate                                   | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |   |
+| Retail Sales Growth Rate                              | Cfr Excel                     | Cfr Excel                     | Cfr Excel                                      |   |
+| Renewal Probability                                   | 70%                           | 60%                           | 50%                                            |   |
+| Nr Downtime Months for Non-Renewal                    | 3                             | 6                             | 9                                              |   |
+| New Tenants – Months of Free Rent                     | 2                             | 3                             | 4                                              |   |
+| Renewal Tenants – Months of Free Rent                 | 1                             | 2                             | 3                                              |   |
+| New Tenants – Tenant Improvements per Rentable SF     | $35.00                        | $45.00                        | $55.00                                         |   |
+| Renewal Tenants – Tenant Improvements per Rentable SF | $15.00                        | $20.00                        | $25.00                                         |   |
+| New Tenants – Leasing Commissions % Lease Value       | 5%                            | 6%                            | 7%                                             |   |
+| Renewal Tenants – Leasing Commissions % Lease Value   | 2%                            | 3%                            | 4%                                             |   |
+| Tenant #6 Lease Start Date                            | 2020-01-31                    | 2020-06-30                    | N/A                                            |   |
+| Tenant #7 Lease Start Date                            | 2021-01-31                    | N/A                           | N/A                                            |   |
 
 The maximum Cap Rate in this market over the past 4-5 years was 8.0%, and it rose to 9.0% in
 the last recession. The other figures above are all in-line with market data.
 
 For the other assumptions, all of which stay the same in different scenarios, please use:
 
-   •     Lease Term for New Tenants: 5 years
-   •     Property Management Fees: 3% of Effective Gross Income
-   •     Common Area Maintenance (CAM) per RSF per Year: $2.50
-   •     Insurance per RSF per Year: $1.00
-   •     Real Estate Taxes % Property Value: 2.55%
-   •     Replacement Reserves per RSF per Year: $3.00
-   •     Common Area Utilities per RSF per Year: $2.00
+- Lease Term for New Tenants: 5 years
+- Property Management Fees: 3% of Effective Gross Income
+- Common Area Maintenance (CAM) per RSF per Year: $2.50
+- Insurance per RSF per Year: $1.00
+- Real Estate Taxes % Property Value: 2.55%
+- Replacement Reserves per RSF per Year: $3.00
+- Common Area Utilities per RSF per Year: $2.00
 
 Since this is a mixed-use office/retail property, the tenants have primarily Triple Net (NNN)
 leases, but a few have variations such as Full Service (FS), Double Net (NN), and Percentage
 Rent leases.
 
-             Here’s the information for each tenant – note that the Market Rent and “Escalated Rent Paid by
-             Initial Tenant” figures are as of the start of FY 18, so you should escalate them appropriately in
-             each month of the model:
+Here’s the information for each tenant – note that the Market Rent and “Escalated Rent Paid by
+Initial Tenant” figures are as of the start of FY 18, so you should escalate them appropriately in
+each month of the model:
 
-                 % Rentable                        Initial       Initial Lease –    Initial Lease      Market        Initial Lease –
-  Tenant                        Initial Lease
-                 Square Feet                       Lease         Annual Rental      – Rent-Free      Rent per SF    Escalated Rent
-  Name:                          Start Date:
-                  Occupied:                       Term:            Escalation:        Months:         per Year:     per SF per Year:
-  WeWork           25.0%        2015-10-31        5 years             2.50%               6            $47.00            $43.00
-   Suffolk
-                      15.0%     2017-10-31        4 years            3.00%               4             $49.00               $45.00
-Construction
-    PTC               10.0%     2015-06-30        4 years            2.50%               4             $46.00               $43.00
-   Safety
-                      12.5%     2016-12-31        6 years            2.00%               5             $48.00               $44.00
- Insurance
-Trader Joe's          20.0%     2016-06-30        5 years            3.00%               6             $48.00               $42.00
- Tenant #6            10.0%     Assumptions       5 years        Assumptions        Assumptions        $60.00               $60.00
- Tenant #7            7.5%      Assumptions       5 years        Assumptions        Assumptions        $56.00               $56.00
+| Tenant Name  | % Rentable SQ Occupied | Init Lease Start Date | Init Lease Term | Init Lease Annual Rent Esc | Init Lease RF Months | Market Rent/SF/yr | Init Lease Esc Rent/SF/Yr |
+| ---          | ---                    | ---                   | ---             | ---                        | ---                  | ---               | ---                       |
+| WeWork       | 25.0%                  | 2015-10-31            | 5 years         | 2.50%                      | 6                    | $47.00            | $43.00                    |
+| Suffolk Cons | 15.0%                  | 2017-10-31            | 4 years         | 3.00%                      | 4                    | $49.00            | $45.00                    |
+| PTC          | 10.0%                  | 2015-06-30            | 4 years         | 2.50%                      | 4                    | $46.00            | $43.00                    |
+| Safety Ins   | 12.5%                  | 2016-12-31            | 6 years         | 2.00%                      | 5                    | $48.00            | $44.00                    |
+| Trader Joe's | 20.0%                  | 2016-06-30            | 5 years         | 3.00%                      | 6                    | $48.00            | $42.00                    |
+| Tenant #6    | 10.0%                  | Assumptions           | 5 years         | Assumptions                | Assumptions          | $60.00            | $60.00                    |
+| Tenant #7    | 7.5%                   | Assumptions           | 5 years         | Assumptions                | Assumptions          | $56.00            | $56.00                    |
 
 
-             And here is the information for each tenant’s lease type:
+And here is the information for each tenant’s lease type:
 
-                                                Initial Retail                             Percentage         Monthly
-                                                                         Initial
-           Tenant Name:        Lease Type:      Sales per SF                              Rent Beyond      Distribution of
-                                                                      Breakpoint:
-                                                  per Year:                               Breakpoint:       Retail Sales:
-             WeWork                NNN               N/A                  N/A                 N/A                N/A
-             Suffolk
-                                   NNN              N/A                   N/A                  N/A                 N/A
-           Construction
-               PTC                 NNN              N/A                   N/A                  N/A                 N/A
-        Safety Insurance          NNN               N/A                   N/A                  N/A                 N/A
-                                 NNN +
-             Trader Joe's      Percentage         $800.00              $500,000               4.0%              See Excel
-                                  Rent
-             Tenant #6             FS               N/A                   N/A                  N/A                 N/A
-                                  NN +
-                                                                   FY 18 Base Rental
-             Tenant #7         Percentage         $900.00                                     5.0%              See Excel
-                                                                   Income / 5% / 12
-                                  Rent
+| Tenant Name      | Lease Type            | Init Retail Sales/SF/yr | Init Breakpoint               | % Rent beyond breakpoint | Monthly Distribution of Retail Sales |
+| ---              | ---                   | ---                     | ---                           | ---                      | ---                                  |
+| WeWork           | NNN                   | N/A                     | N/A                           | N/A                      | N/A                                  |
+| Suffolk Cons     | NNN                   | N/A                     | N/A                           | N/A                      | N/A                                  |
+| PTC              | NNN                   | N/A                     | N/A                           | N/A                      | N/A                                  |
+| Safety Insurance | NNN                   | N/A                     | N/A                           | N/A                      | N/A                                  |
+| Trader Joe's     | NNN + Percentage Rent | $800.00                 | $500,000                      | 4.0%                     | See Excel                            |
+| Tenant #6        | FS                    | N/A                     | N/A                           | N/A                      | N/A                                  |
+| Tenant #7        | NN + Percentage Rent  | $900.00                 | FY18 Base Rental Income/5%/12 | 5.0%                     | See Excel                            |
 
 
 With Triple Net (NNN) leases, the tenant is responsible for CAM, Common Area Utilities,
@@ -225,7 +179,7 @@ you must add the TI/LC/CapEx Holdback as it is released.
 Once you’ve finished the Monthly Pro-Forma, create the annual summary down to the Adjusted
 NOI line.
 
-Part 4 – Debt Service and Returns to Equity Investors and Lenders
+# Debt Service and Returns to Equity Investors and Lenders
 
 Next, project the property’s Debt Service, including the Cash and PIK Interest, the Principal
 Repayments, and the release of the Holdback.
